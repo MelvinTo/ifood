@@ -28,6 +28,9 @@
 		DFC37FD216987EF800896623 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC37FA516987EF700896623 /* CoreData.framework */; };
 		DFC37FDA16987EF800896623 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFC37FD816987EF800896623 /* InfoPlist.strings */; };
 		DFC37FDD16987EF800896623 /* iFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC37FDC16987EF800896623 /* iFoodTests.m */; };
+		DFC37FE7169B2B8C00896623 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC37FE6169B2B8C00896623 /* MapKit.framework */; };
+		DFC37FEA169B2D1D00896623 /* IFOODAddPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC37FE9169B2D1D00896623 /* IFOODAddPlaceViewController.m */; };
+		DFC37FED169B2F2200896623 /* IFOODPlaceSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC37FEC169B2F2200896623 /* IFOODPlaceSearchDisplayController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,11 @@
 		DFC37FD916987EF800896623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFC37FDB16987EF800896623 /* iFoodTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iFoodTests.h; sourceTree = "<group>"; };
 		DFC37FDC16987EF800896623 /* iFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFoodTests.m; sourceTree = "<group>"; };
+		DFC37FE6169B2B8C00896623 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DFC37FE8169B2D1D00896623 /* IFOODAddPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFOODAddPlaceViewController.h; sourceTree = "<group>"; };
+		DFC37FE9169B2D1D00896623 /* IFOODAddPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFOODAddPlaceViewController.m; sourceTree = "<group>"; };
+		DFC37FEB169B2F2200896623 /* IFOODPlaceSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFOODPlaceSearchDisplayController.h; sourceTree = "<group>"; };
+		DFC37FEC169B2F2200896623 /* IFOODPlaceSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFOODPlaceSearchDisplayController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC37FE7169B2B8C00896623 /* MapKit.framework in Frameworks */,
 				DFC37FA016987EF700896623 /* UIKit.framework in Frameworks */,
 				DFC37FA216987EF700896623 /* Foundation.framework in Frameworks */,
 				DFC37FA416987EF700896623 /* CoreGraphics.framework in Frameworks */,
@@ -99,6 +108,7 @@
 		DFC37F9016987EF700896623 = {
 			isa = PBXGroup;
 			children = (
+				DFC37FE6169B2B8C00896623 /* MapKit.framework */,
 				DFC37FA716987EF700896623 /* iFood */,
 				DFC37FD516987EF800896623 /* iFoodTests */,
 				DFC37F9E16987EF700896623 /* Frameworks */,
@@ -140,6 +150,10 @@
 				DFC37FC616987EF800896623 /* IFOODDetailViewController.m */,
 				DFC37FBF16987EF800896623 /* iFood.xcdatamodeld */,
 				DFC37FA816987EF700896623 /* Supporting Files */,
+				DFC37FE8169B2D1D00896623 /* IFOODAddPlaceViewController.h */,
+				DFC37FE9169B2D1D00896623 /* IFOODAddPlaceViewController.m */,
+				DFC37FEB169B2F2200896623 /* IFOODPlaceSearchDisplayController.h */,
+				DFC37FEC169B2F2200896623 /* IFOODPlaceSearchDisplayController.m */,
 			);
 			path = iFood;
 			sourceTree = "<group>";
@@ -294,6 +308,8 @@
 				DFC37FC116987EF800896623 /* iFood.xcdatamodeld in Sources */,
 				DFC37FC416987EF800896623 /* IFOODMasterViewController.m in Sources */,
 				DFC37FC716987EF800896623 /* IFOODDetailViewController.m in Sources */,
+				DFC37FEA169B2D1D00896623 /* IFOODAddPlaceViewController.m in Sources */,
+				DFC37FED169B2F2200896623 /* IFOODPlaceSearchDisplayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
